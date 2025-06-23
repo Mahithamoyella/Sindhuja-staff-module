@@ -27,9 +27,9 @@ services:
       DB_USER: postgres
       DB_PASSWORD: admin834
       DB_NAME: staff_management
-      PORT: 3004
+      PORT: 3055
     ports:
-      - "3004:3004"
+      - "3055:3055"
     networks:
       - staff-net
 
