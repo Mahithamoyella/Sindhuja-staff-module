@@ -2,7 +2,7 @@ const express = require('express');
 const { Pool } = require('pg');
 const cors = require('cors');
 const app = express();
-const port = process.env.PORT || 3055;
+const port = process.env.PORT || 3205;
 
 // Middleware
 app.use(cors());
@@ -13,7 +13,7 @@ const pool = new Pool({
     user: 'postgres', // Replace with your PostgreSQL username
     host: 'postgres',
     database: 'staff_management',
-    password: 'admin834', // Replace with your PostgreSQL password
+    password: 'admin123', // Replace with your PostgreSQL password
     port: 5432,
 });
 
